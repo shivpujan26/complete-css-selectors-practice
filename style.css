@@ -1,0 +1,27 @@
+
+/* selector */ 
+h2{
+    color: red;
+}
+/* class selector */
+.sh{
+    color: blue;
+}
+/* id selector */
+#st{
+    color: blueviolet;
+}
+/* attribute selectors */
+p[draggable]{
+    color: chartreuse;
+}
+
+p[draggable="false"]{
+    color: red;
+}
+
+/* universal selectors */
+
+*{
+    color: chocolate;
+}
